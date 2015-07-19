@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(220,230,234);
+}
+
+h1 {
+  font-size: 35px;
+  font-family: Century Gothic, sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+}
+
+li {
+  font-size: 16px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  margin-bottom: 5px;
+}
+
+ul {
+  font-size: 16px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: normal;
+}
+
+ul:first-child li {
+  font-size: 15px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  margin-bottom: 1px;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: dimgray;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: dimgray;
+}
